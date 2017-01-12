@@ -51,3 +51,5 @@ class template
         $this->content = file_get_contents($f);
     }//readFile function
 }//class end
+
+?>
