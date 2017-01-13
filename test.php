@@ -28,4 +28,12 @@ print_r($sentence2);
 echo '<pre>';
 $sentence2->show();
 echo '<hr>';
+
+$sentence3 = new ctext('Värviline tere koos konstrikturiga');
+// control object output
+echo '<pre>';
+print_r($sentence3);
+echo '</pre>';
+// show object output
+$sentence3->show();
 ?>

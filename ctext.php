@@ -10,5 +10,12 @@
 require_once 'text.php';
 class ctext extends text
 {//begin of class
+    //class variable - color
+    var $color = false; //color doesn't exist
+    //methods
+    //set up the color
+    function setColor($c) {
+        $this->color = $c; //set up $c parameters value to
+    }//setColor
 
 }//end of class
