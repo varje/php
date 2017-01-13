@@ -1,0 +1,53 @@
+body{
+    background: #9cf;
+    color: #3cf;
+    font-family: Trebuchet MS, Arial, Times New Roman;
+    font-size: 20px;
+}
+#container{
+    background: #cff;
+    width: 900px;
+    height: 1000px;
+    margin: 30px auto;
+}
+#header{
+    background: #006;
+    width: 900px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    color: white;
+}
+#navigatsioon{
+    background: #6cf;
+    width: 900px;
+    height: 130px;
+    /*text-align: right;*/
+    line-height: 30px;
+}
+#menu{
+    background: #06f;
+    width:200px;
+    height: 770px;
+    float: left;
+    color: #ffffff;
+}
+#content{
+    background: #0cf;
+    width: 700px;
+    height: 770px;
+    float: right;
+    overflow: auto;
+}
+
+#footer{
+    background: #006;
+    width: 900px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    color: white;
+}
+#clear{
+    clear: both;
+}

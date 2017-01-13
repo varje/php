@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="deffa298-4b98-4b27-b32d-7038fa384e3b" name="kool" url="http://138.68.68.130/~varje.kass/">
+        <fileTransfer host="138.68.68.130" port="22" rootFolder="/home/varje.kass/public/" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
