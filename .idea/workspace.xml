@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="28047333-eed6-4b93-a951-c04df5932b60" name="Default" comment="http class inital version">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/http.php" />
+    <list default="true" id="28047333-eed6-4b93-a951-c04df5932b60" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ctext.php" afterPath="$PROJECT_DIR$/ctext.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test.php" afterPath="$PROJECT_DIR$/test.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmpl/main.html" afterPath="$PROJECT_DIR$/tmpl/main.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -65,17 +61,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="229">
-              <caret line="40" column="19" lean-forward="false" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
+              <caret line="40" column="19" lean-forward="true" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="http.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="http.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/classes/http.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="156">
@@ -111,8 +107,8 @@
         <option value="$PROJECT_DIR$/CSS/kujundus.css" />
         <option value="$PROJECT_DIR$/CSS/main.css" />
         <option value="$PROJECT_DIR$/tmpl/main.html" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/classes/http.php" />
+        <option value="$PROJECT_DIR$/index.php" />
       </list>
     </option>
   </component>
@@ -289,7 +285,7 @@
       <workItem from="1484213687747" duration="217000" />
       <workItem from="1484295479290" duration="1000" />
       <workItem from="1484295488489" duration="6209000" />
-      <workItem from="1484654492017" duration="3907000" />
+      <workItem from="1484654492017" duration="4167000" />
     </task>
     <task id="LOCAL-00001" summary="new var $vars">
       <created>1484296435194</created>
@@ -319,11 +315,18 @@
       <option name="project" value="LOCAL" />
       <updated>1484298255300</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="http class construct">
+      <created>1484658438820</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1484658438820</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10334000" />
+    <option name="totallyTimeSpent" value="10594000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="429" y="39" width="1163" height="772" extended-state="0" />
@@ -362,7 +365,8 @@
     <MESSAGE value="Setting template name and value pairs" />
     <MESSAGE value="return $str and echo $tmpl" />
     <MESSAGE value="http class inital version" />
-    <option name="LAST_COMMIT_MESSAGE" value="http class inital version" />
+    <MESSAGE value="http class construct" />
+    <option name="LAST_COMMIT_MESSAGE" value="http class construct" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -449,18 +453,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="40" column="19" lean-forward="false" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/classes/http.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
           <caret line="19" column="16" lean-forward="false" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="40" column="19" lean-forward="true" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
           <folding />
         </state>
       </provider>
