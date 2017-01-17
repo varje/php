@@ -41,10 +41,10 @@ require_once CLASSES_DIR.'http.php';
 $http = new http();
 echo '<pre>';
 print_r($http);
-echo'</pre';
+echo'</pre>';
 //output http constants
-echo HTTP_POST.'<br/>';
-echo SCRIPT_NAME.'<br/>';
-echo PHP_SELF.'<br/>';
-echo REMOTE_ADDR.'<br/>';
+echo HTTP_HOST.'<br />';
+echo SCRIPT_NAME.'<br />';
+echo PHP_SELF.'<br />';
+echo REMOTE_ADDR.'<br />';
 ?>
