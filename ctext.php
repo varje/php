@@ -17,5 +17,14 @@ class ctext extends text
     function setColor($c) {
         $this->color = $c; //set up $c parameters value to
     }//setColor
+    //show object
+    function show() {
+        if($this->color === false) {
+            parent::show();
+        } else {
+            echo '<font color="'.$this->color.'">'.$this->str.'</font><br/>';
+        }
+    }//show
 
 }//end of class
+?>

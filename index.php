@@ -30,7 +30,15 @@ print_r($tmpl);
 echo '</pre>';
 */
 
+//output template content set up with real values
 echo $tmpl->parse();
+
+//http object testing
+echo '<br/>';
+//import http class file
+require_once CLASSES_DIR.'http.php';
+//create http object
+$http = new http();
 
 
 ?>
