@@ -34,5 +34,12 @@ class http
                 define($var, $this->server[$var]);
             }//if
         }//foreach
+    }//initConst
+    //set up $this->vars elements: element_name => element_value
+    //$name = element name, for example user
+    //$val = element value, for example test
+    //$this->vars['user'] = 'test'
+    function set($name, $val) {
+        $this->vars[$name] = $val;
     }
 }//http class end
