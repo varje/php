@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="28047333-eed6-4b93-a951-c04df5932b60" name="Default" comment="class linkobject">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/linkobject.php" />
+    <list default="true" id="28047333-eed6-4b93-a951-c04df5932b60" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
     </list>
@@ -62,11 +61,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="54" column="13" lean-forward="true" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="13" />
+            <state relative-caret-position="119">
+              <caret line="58" column="25" lean-forward="false" selection-start-line="58" selection-start-column="25" selection-end-line="58" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -75,14 +74,14 @@
       <file leaf-file-name="http.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/classes/http.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="394">
+            <state relative-caret-position="262">
               <caret line="42" column="34" lean-forward="false" selection-start-line="42" selection-start-column="34" selection-end-line="42" selection-end-column="34" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="linkobject.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="linkobject.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/classes/linkobject.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="286">
@@ -121,9 +120,9 @@
         <option value="$PROJECT_DIR$/CSS/main.css" />
         <option value="$PROJECT_DIR$/tmpl/main.html" />
         <option value="$PROJECT_DIR$/classes/http.php" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$USER_HOME$/PhpstormProjects/veebidisain/index.html" />
         <option value="$PROJECT_DIR$/classes/linkobject.php" />
+        <option value="$PROJECT_DIR$/index.php" />
       </list>
     </option>
   </component>
@@ -301,7 +300,7 @@
       <workItem from="1484295479290" duration="1000" />
       <workItem from="1484295488489" duration="6209000" />
       <workItem from="1484654492017" duration="8130000" />
-      <workItem from="1484747049359" duration="754000" />
+      <workItem from="1484747049359" duration="1000000" />
     </task>
     <task id="LOCAL-00001" summary="new var $vars">
       <created>1484296435194</created>
@@ -366,11 +365,18 @@
       <option name="project" value="LOCAL" />
       <updated>1484659645988</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="class linkobject">
+      <created>1484747816518</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1484747816518</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15311000" />
+    <option name="totallyTimeSpent" value="15557000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="737" y="41" width="1163" height="772" extended-state="0" />
@@ -564,17 +570,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="54" column="13" lean-forward="true" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/classes/http.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
+        <state relative-caret-position="262">
           <caret line="42" column="34" lean-forward="false" selection-start-line="42" selection-start-column="34" selection-end-line="42" selection-end-column="34" />
           <folding />
         </state>
@@ -587,6 +585,14 @@
           <folding>
             <element signature="e#7#96#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="58" column="25" lean-forward="false" selection-start-line="58" selection-start-column="25" selection-end-line="58" selection-end-column="25" />
+          <folding />
         </state>
       </provider>
     </entry>
