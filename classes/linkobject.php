@@ -13,7 +13,14 @@ class linkobject extends http
     //class variables
     var $baseUrl = false;//base url value
     var $protocol = 'http://';//protocol for url
-    var $delim = '&aml;';// & html tag
+    var $delim = '&auml;';// & html tag
     var $eq = '='; //equal sign
+
+    //class methods
+    //construct
+    function __construct(){
+        parent::__construct(); //import http class construct
+        $this->baseUrl = $this->protocol.HTTP_HOST.SCRIPT_NAME;
+    }
 }//class end
 ?>
