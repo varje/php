@@ -65,5 +65,7 @@ echo'<hr />';
 //$link = '';
 //$http->addToLink($link, 'user', 'test');
 //$http->addToLink($link, 'parool', 'qwerty');
-echo $http->getLink(array('user'=>'test', 'parool'=>'qwerty'));
+$link = $http->getLink(array('user'=>'test', 'parool'=>'qwerty'));
+//output link
+echo $link;
 ?>
