@@ -10,6 +10,10 @@
 require_once 'http.php';
 class linkobject extends http
 {//class begin
-
+    //class variables
+    var $baseUrl = false;//base url value
+    var $protocol = 'http://';//protocol for url
+    var $delim = '&aml;';// & html tag
+    var $eq = '='; //equal sign
 }//class end
 ?>
