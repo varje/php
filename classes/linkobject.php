@@ -17,7 +17,7 @@ class linkobject extends http
     //class variables
     var $baseUrl = false;//base url value
     var $protocol = 'http://';//protocol for url
-    var $delim = '&auml;';// & html tag
+    var $delim = '&amp;';// & html tag
     var $eq = '='; //equal sign
 
     //class methods
@@ -29,8 +29,16 @@ class linkobject extends http
     //create http data pairs and merge them
     //pair is element_name = element_value, for example name=admin
     //name1=value1&name2=value2
-    function addToLink($link, $name, $val){
-        $link = $name.$this->eq.$val;
-    }
+    //for merging use &link
+    function addToLink(&$link, $name, $val){
+        //if pair is already created
+        if($link != '') {
+            //name=value
+            $link = $link.$this->delim;
+        }
+        $link = $link.fixUrl($name).$this->eq.fixUrl($val);//name=value
+        //test output
+        echo $link.'<br />';
+    }//addToLink
 }//class end
 ?>

@@ -37,8 +37,10 @@ echo $tmpl->parse();
 echo '<br/>';
 //import http class file
 require_once CLASSES_DIR.'http.php';
+//import linkobject file
+require_once CLASSES_DIR.'linkobject.php';
 //create http object
-$http = new http();
+$http = new linkobject();
 echo '<pre>';
 print_r($http);
 echo'</pre>';
@@ -56,4 +58,11 @@ print_r($http->vars);
 echo'</pre>';
 echo'<hr />';
 
+//create data elements for url testing
+//name=value
+//name1=value1&name2=value2
+
+$link = '';
+$http->addToLink($link, 'user', 'test');
+$http->addToLink($link, 'parool', 'qwerty');
 ?>
