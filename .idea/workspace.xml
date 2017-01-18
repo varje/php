@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="28047333-eed6-4b93-a951-c04df5932b60" name="Default" comment="linkobject constructor">
+    <list default="true" id="28047333-eed6-4b93-a951-c04df5932b60" name="Default" comment="addtolink">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/linkobject.php" afterPath="$PROJECT_DIR$/classes/linkobject.php" />
     </list>
@@ -84,8 +84,8 @@
       <file leaf-file-name="linkobject.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/classes/linkobject.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="317">
-              <caret line="22" column="63" lean-forward="false" selection-start-line="22" selection-start-column="63" selection-end-line="22" selection-end-column="63" />
+            <state relative-caret-position="163">
+              <caret line="28" column="37" lean-forward="false" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
               <folding>
                 <element signature="e#7#96#0#PHP" expanded="true" />
               </folding>
@@ -300,7 +300,7 @@
       <workItem from="1484295479290" duration="1000" />
       <workItem from="1484295488489" duration="6209000" />
       <workItem from="1484654492017" duration="8130000" />
-      <workItem from="1484747049359" duration="1679000" />
+      <workItem from="1484747049359" duration="2092000" />
     </task>
     <task id="LOCAL-00001" summary="new var $vars">
       <created>1484296435194</created>
@@ -393,11 +393,18 @@
       <option name="project" value="LOCAL" />
       <updated>1484748534644</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="linkobject constructor">
+      <created>1484748739226</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1484748739226</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16236000" />
+    <option name="totallyTimeSpent" value="16649000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="737" y="41" width="1163" height="772" extended-state="0" />
@@ -444,7 +451,8 @@
     <MESSAGE value="linkobject" />
     <MESSAGE value="linkobject variables" />
     <MESSAGE value="linkobject constructor" />
-    <option name="LAST_COMMIT_MESSAGE" value="linkobject constructor" />
+    <MESSAGE value="addtolink" />
+    <option name="LAST_COMMIT_MESSAGE" value="addtolink" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -613,8 +621,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/classes/linkobject.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="22" column="63" lean-forward="false" selection-start-line="22" selection-start-column="63" selection-end-line="22" selection-end-column="63" />
+        <state relative-caret-position="163">
+          <caret line="28" column="37" lean-forward="false" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
           <folding>
             <element signature="e#7#96#0#PHP" expanded="true" />
           </folding>
