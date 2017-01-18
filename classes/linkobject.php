@@ -6,6 +6,10 @@
  * Date: 18-Jan-17
  * Time: 15:54
  */
+//useful function
+function fixUrl($val) {
+    return urlencode($val);
+}
 //import http class file
 require_once 'http.php';
 class linkobject extends http
