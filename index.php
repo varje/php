@@ -62,7 +62,8 @@ echo'<hr />';
 //name=value
 //name1=value1&name2=value2
 
-$link = '';
-$http->addToLink($link, 'user', 'test');
-$http->addToLink($link, 'parool', 'qwerty');
+//$link = '';
+//$http->addToLink($link, 'user', 'test');
+//$http->addToLink($link, 'parool', 'qwerty');
+echo $http->getLink(array('user'=>'test', 'parool'=>'qwerty'));
 ?>

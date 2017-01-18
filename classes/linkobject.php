@@ -37,8 +37,19 @@ class linkobject extends http
             $link = $link.$this->delim;
         }
         $link = $link.fixUrl($name).$this->eq.fixUrl($val);//name=value
-        //test output
-        echo $link.'<br />';
     }//addToLink
+    //create url -> baseUrl + data pairs
+    function getLink($add = array()) {
+        $link = '';
+        foreach ($add as $name => $val) {
+            $this->addToLink($link, $name, $val);
+        }
+        if ($link != '') {
+            $link = $this->baseUrl.'?'.$link;
+        } else {
+            $link = $this->baseUrl;
+        }
+        return $link;
+    }//getLink
 }//class end
 ?>
