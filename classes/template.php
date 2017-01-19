@@ -72,10 +72,10 @@ class template
 
     //add values to element
     function add($name, $val) {
-        if(!isset($this->vars($name))) {
+        if(!isset($this->vars[$name])) {
             $this->set($name, $val);
         } else {
-            $this->vars($name) = $this->vars[$name].$val;
+            $this->vars[$name] = $this->vars[$name].$val;
         }
     }//add
 
