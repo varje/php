@@ -47,6 +47,12 @@ class template
         if(file_exists($f) and is_file($f) and is_readable($f)) {
             $this->readFile($f);
         }
+        //if using subdirectories /tmpl/dir/file.html - tmpl.dir.file
+        $f= TMPL_DIR.str_replace('.', '/', $this->file).'html';
+        if(file_exists($f) and is_file($f) and is_readable($f)) {
+            $this->readFile($f);
+        }
+        //subdirectories
         if($this->content === false) {
             echo 'Ei saanud lugeda faili' .$this->file.'.<br/>';
             exit;
