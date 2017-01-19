@@ -12,6 +12,14 @@ $item = new template('menu.item');
 $item->set('name'. 'Esimene leht');
 $link= $http->getLink(array('act'=>'first'));
 $item->set('link', $link);
+//add item to menu
+$menu->set('items', $item->parse());
+//add content to menu item
+$item->set('name'. 'Teine leht');
+$link= $http->getLink(array('act'=>'first'));
+$item->set('link', $link);
+//add item to menu
+$menu->set('items', $item->parse());
 //output objects
 //menu
 echo '<pre>';

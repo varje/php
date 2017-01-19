@@ -70,6 +70,11 @@ class template
         $this->vars[$name] = $val;
     }//set
 
+    //add values to element
+    function add($name, $val) {
+
+    }//add
+
     //parse template content and replace template table names by
     //template table real values
     function parse() {
