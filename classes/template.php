@@ -72,7 +72,11 @@ class template
 
     //add values to element
     function add($name, $val) {
-
+        if(!isset($this->vars($name))) {
+            $this->set($name, $val);
+        } else {
+            $this->vars($name) = $this->vars[$name].$val;
+        }
     }//add
 
     //parse template content and replace template table names by
