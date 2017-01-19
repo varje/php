@@ -8,6 +8,10 @@
 // create menu and item objects
 $menu = new template('menu.menu');
 $item = new template('menu.item');
+//add content to menu item
+$item->set('name'. 'Esimene leht');
+$link= $http->getLink(array('act'=>'first'));
+$item->set('link', $link);
 //output objects
 //menu
 echo '<pre>';
