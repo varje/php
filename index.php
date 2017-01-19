@@ -68,4 +68,8 @@ echo'<hr />';
 $link = $http->getLink(array('user'=>'test', 'parool'=>'qwerty'));
 //output link
 echo $link;
+
+//menu testing
+//import menu
+require_once 'menu.php';
 ?>

@@ -8,5 +8,13 @@
 // create menu and item objects
 $menu = new template('menu.menu');
 $item = new template('menu.item');
-
+//output objects
+//menu
+echo '<pre>';
+print_r($menu);
+echo '</pre>';
+//item
+echo '<pre>';
+print_r($item);
+echo '</pre>';
 ?>
