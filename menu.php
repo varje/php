@@ -6,5 +6,7 @@
  * Time: 10:36
  */
 // create menu and item objects
-$menu = new template(TMPL_DIR.'menu.menu');
+$menu = new template('menu.menu');
+$item = new template('menu.item');
+
 ?>
