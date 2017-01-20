@@ -34,7 +34,5 @@ $sql = 'SELECT NOW()';
 $res = $db->getArray($sql);
 $sql = 'SELECT NOW()';
 $res = $db->getArray($sql);
-echo '<pre>';
-print_r($db->history);
-echo '</pre>';
+$db->showHistory();
 ?>

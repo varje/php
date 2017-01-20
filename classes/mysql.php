@@ -69,5 +69,16 @@ class mysql
         }
         return $data;
     }//getArray
+
+    //log history output
+    function showHistory() {
+        if(count($this->history) > 0) {
+            echo '<hr />';
+            foreach ($this->history as $key=>$val ) {
+                echo '<li>'.$val['sql'].'<br />';
+                echo '<strong>'.round($val['time'], 6).'</strong></li>';
+            }
+        }
+    }//showHistory
 }//class end
 ?>

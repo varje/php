@@ -89,8 +89,8 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="35" column="27" lean-forward="false" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
+            <state relative-caret-position="251">
+              <caret line="36" column="19" lean-forward="false" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -100,7 +100,7 @@
         <entry file="file://$PROJECT_DIR$/classes/mysql.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="251">
-              <caret line="55" column="10" lean-forward="false" selection-start-line="55" selection-start-column="10" selection-end-line="55" selection-end-column="10" />
+              <caret line="78" column="72" lean-forward="false" selection-start-line="78" selection-start-column="72" selection-end-line="78" selection-end-column="72" />
               <folding />
             </state>
           </provider>
@@ -165,8 +165,8 @@
         <option value="$PROJECT_DIR$/classes/http.php" />
         <option value="$PROJECT_DIR$/db_conf.php" />
         <option value="$PROJECT_DIR$/conf.php" />
-        <option value="$PROJECT_DIR$/classes/mysql.php" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/classes/mysql.php" />
       </list>
     </option>
   </component>
@@ -369,7 +369,7 @@
       <workItem from="1484654492017" duration="8130000" />
       <workItem from="1484747049359" duration="3436000" />
       <workItem from="1484812996128" duration="4504000" />
-      <workItem from="1484896064181" duration="5288000" />
+      <workItem from="1484896064181" duration="5656000" />
     </task>
     <task id="LOCAL-00001" summary="new var $vars">
       <created>1484296435194</created>
@@ -644,11 +644,18 @@
       <option name="project" value="LOCAL" />
       <updated>1484903431127</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="if callout several times, the query execute time gets smaller">
+      <created>1484903566319</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1484903566319</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27785000" />
+    <option name="totallyTimeSpent" value="28153000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="513" y="194" width="1163" height="772" extended-state="0" />
@@ -682,7 +689,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="linkobject" />
     <MESSAGE value="linkobject variables" />
     <MESSAGE value="linkobject constructor" />
     <MESSAGE value="addtolink" />
@@ -707,7 +713,8 @@
     <MESSAGE value="getMicroTime" />
     <MESSAGE value="calculate time to execute query" />
     <MESSAGE value="history - database log" />
-    <option name="LAST_COMMIT_MESSAGE" value="history - database log" />
+    <MESSAGE value="if callout several times, the query execute time gets smaller" />
+    <option name="LAST_COMMIT_MESSAGE" value="if callout several times, the query execute time gets smaller" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1052,15 +1059,15 @@
     <entry file="file://$PROJECT_DIR$/classes/mysql.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="251">
-          <caret line="55" column="10" lean-forward="false" selection-start-line="55" selection-start-column="10" selection-end-line="55" selection-end-column="10" />
+          <caret line="78" column="72" lean-forward="false" selection-start-line="78" selection-start-column="72" selection-end-line="78" selection-end-column="72" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="35" column="27" lean-forward="false" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
+        <state relative-caret-position="251">
+          <caret line="36" column="19" lean-forward="false" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
           <folding />
         </state>
       </provider>
