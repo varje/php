@@ -37,7 +37,7 @@ class mysql
     function query($sql) {
         $res = mysqli_query($this->conn, $sql);
         if ($res === FALSE) {
-            echo 'Viga päringuga <b>'.$mysql.'</b><br />';
+            echo 'Viga päringuga <b>'.$sql.'</b><br />';
             echo mysqli_error($this->conn).'<br />';
             exit;
         }
