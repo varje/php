@@ -5,6 +5,12 @@
  * Date: 17.01.2017
  * Time: 14:40
  */
+
+//useful function
+function fixHtml($val) {
+    return htmlentities($val);
+}
+
 class http
 {// http class begin
     // class variables
@@ -41,5 +47,16 @@ class http
     function set($name, $val){
         $this->vars[$name] = $val;
     }// set
+
+    //get value pairs from url ($this->vars)
+    function get($name, $fix = false) {
+        if (isset($this->vars[$name])) {
+            if($fix) {
+                return fixHtml($this->vars[$name]);
+            }
+            return $this->vars[$name];
+        }
+        return false;
+    }//get
 }// http class end
 ?>

@@ -8,6 +8,8 @@
  */
 // import configuration
 require_once 'conf.php';
+//import act
+require_once 'act.php';
 // create and template object
 // and use it
 // create an template object,
