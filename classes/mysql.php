@@ -33,6 +33,12 @@ class mysql
         }// if problem with connection
     }//connect
 
+    //query time control
+    function getMicroTime() {
+        list($usec, $sec) = explode(" ", microtime());
+        return ((float)$usec + (float)$sec);
+    }//getMicroTime
+
     //query to database
     function query($sql) {
         $res = mysqli_query($this->conn, $sql);

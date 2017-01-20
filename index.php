@@ -29,7 +29,7 @@ $tmpl->set('content', 'minu sisu');
 echo $tmpl->parse();
 //database test
 $sql = 'SELECT NOW()';
-$res = $db->query($sql);
+$res = $db->getArray($sql);
 echo '<pre>';
 print_r($res);
 echo '</pre>';
