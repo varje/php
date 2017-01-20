@@ -49,7 +49,7 @@ class http
     }// set
 
     //get value pairs from url ($this->vars)
-    function get($name, $fix = false) {
+    function get($name, $fix = true) {
         if (isset($this->vars[$name])) {
             if($fix) {
                 return fixHtml($this->vars[$name]);
