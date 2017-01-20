@@ -32,5 +32,16 @@ class mysql
             exit;
         }// if problem with connection
     }//connect
+
+    //query to database
+    function query($sql) {
+        $res = mysqli_query($this->conn, $sql);
+        if ($res === FALSE) {
+            echo 'Viga päringuga <b>'.$mysql.'</b><br />';
+            echo mysqli_error($this->conn).'<br />';
+            exit;
+        }
+        return $res;
+    }//query
 }//class end
 ?>
