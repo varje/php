@@ -48,7 +48,7 @@ class template
             $this->readFile($f);
         }
         //if using subdirectories /tmpl/dir/file.html - tmpl.dir.file
-        $f= TMPL_DIR.str_replace('.', '/', $this->file).'html';
+        $f= TMPL_DIR.str_replace('.', '/', $this->file).'.html';
         if(file_exists($f) and is_file($f) and is_readable($f)) {
             $this->readFile($f);
         }
