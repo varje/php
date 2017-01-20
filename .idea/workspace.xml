@@ -4,8 +4,6 @@
     <list default="true" id="28047333-eed6-4b93-a951-c04df5932b60" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/act.php" afterPath="$PROJECT_DIR$/act.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/http.php" afterPath="$PROJECT_DIR$/classes/http.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/conf.php" afterPath="$PROJECT_DIR$/conf.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -69,8 +67,8 @@
       <file leaf-file-name="act.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/act.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="11" column="20" lean-forward="false" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+            <state relative-caret-position="328">
+              <caret line="15" column="21" lean-forward="false" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -168,8 +166,8 @@
         <option value="$PROJECT_DIR$/menu.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/classes/http.php" />
-        <option value="$PROJECT_DIR$/act.php" />
         <option value="$PROJECT_DIR$/conf.php" />
+        <option value="$PROJECT_DIR$/act.php" />
       </list>
     </option>
   </component>
@@ -326,7 +324,7 @@
       <workItem from="1484654492017" duration="8130000" />
       <workItem from="1484747049359" duration="3436000" />
       <workItem from="1484812996128" duration="4504000" />
-      <workItem from="1484896064181" duration="9141000" />
+      <workItem from="1484896064181" duration="9262000" />
     </task>
     <task id="LOCAL-00001" summary="new var $vars">
       <created>1484296435194</created>
@@ -629,11 +627,18 @@
       <option name="project" value="LOCAL" />
       <updated>1484907732779</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="act.php">
+      <created>1484908272662</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1484908272662</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31638000" />
+    <option name="totallyTimeSpent" value="31759000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="490" y="207" width="1163" height="772" extended-state="0" />
@@ -667,7 +672,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="fixurl" />
     <MESSAGE value="call addtolink" />
     <MESSAGE value="making  full link" />
     <MESSAGE value="echo link" />
@@ -692,7 +696,8 @@
     <MESSAGE value="round time and output in list" />
     <MESSAGE value="takes menu elements from database" />
     <MESSAGE value="functin get changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="functin get changes" />
+    <MESSAGE value="act.php" />
+    <option name="LAST_COMMIT_MESSAGE" value="act.php" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1062,8 +1067,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/act.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="20" lean-forward="false" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+        <state relative-caret-position="328">
+          <caret line="15" column="21" lean-forward="false" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
           <folding />
         </state>
       </provider>
