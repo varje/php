@@ -13,6 +13,7 @@ class mysql
     var $user = false; //database server user name
     var $pass = false; //database user server password
     var $dbname = false; //one of user databases
+    var $history = array(); //database object log array
 
     //class methods
     //construct
@@ -49,6 +50,10 @@ class mysql
             exit;
         }
         $time = $this->getMicroTime() - $begin;
+        $this->history[] = array(
+            'sql' => $sql,
+            'time' => $time
+        )
         return $res;
     }//query
 
