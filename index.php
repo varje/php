@@ -27,4 +27,8 @@ $tmpl->set('lang_bar', 'minu keeleriba');
 $tmpl->set('content', 'minu sisu');
 // output template content set up with real values
 echo $tmpl->parse();
+//database test
+echo '<pre>';
+print_r($db);
+echo '</pre>';
 ?>
