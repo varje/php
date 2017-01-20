@@ -28,7 +28,7 @@ $tmpl->set('content', 'minu sisu');
 // output template content set up with real values
 echo $tmpl->parse();
 //database test
-$sql = 'SELECT NOW';
+$sql = 'SELECT NOW()';
 $res = $db->query($sql);
 echo '<pre>';
 print_r($res);
