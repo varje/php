@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28047333-eed6-4b93-a951-c04df5932b60" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/acts/default.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/act.php" afterPath="$PROJECT_DIR$/act.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -64,12 +64,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="act.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="act.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/act.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="328">
               <caret line="15" column="21" lean-forward="false" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="default.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/acts/default.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <folding>
+                <element signature="e#6#95#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -82,16 +94,6 @@
               <folding>
                 <element signature="e#6#94#0#PHP" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="db_conf.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db_conf.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" column="31" lean-forward="false" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -168,6 +170,7 @@
         <option value="$PROJECT_DIR$/classes/http.php" />
         <option value="$PROJECT_DIR$/conf.php" />
         <option value="$PROJECT_DIR$/act.php" />
+        <option value="$PROJECT_DIR$/acts/default.php" />
       </list>
     </option>
   </component>
@@ -223,6 +226,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="classes" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="php1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="php1" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="acts" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -324,7 +341,7 @@
       <workItem from="1484654492017" duration="8130000" />
       <workItem from="1484747049359" duration="3436000" />
       <workItem from="1484812996128" duration="4504000" />
-      <workItem from="1484896064181" duration="9262000" />
+      <workItem from="1484896064181" duration="9365000" />
     </task>
     <task id="LOCAL-00001" summary="new var $vars">
       <created>1484296435194</created>
@@ -634,11 +651,18 @@
       <option name="project" value="LOCAL" />
       <updated>1484908272662</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="act.php default act">
+      <created>1484908394463</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1484908394463</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31759000" />
+    <option name="totallyTimeSpent" value="31862000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="490" y="207" width="1163" height="772" extended-state="0" />
@@ -672,7 +696,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="call addtolink" />
     <MESSAGE value="making  full link" />
     <MESSAGE value="echo link" />
     <MESSAGE value="create menu and menu item template" />
@@ -697,7 +720,8 @@
     <MESSAGE value="takes menu elements from database" />
     <MESSAGE value="functin get changes" />
     <MESSAGE value="act.php" />
-    <option name="LAST_COMMIT_MESSAGE" value="act.php" />
+    <MESSAGE value="act.php default act" />
+    <option name="LAST_COMMIT_MESSAGE" value="act.php default act" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1070,6 +1094,16 @@
         <state relative-caret-position="328">
           <caret line="15" column="21" lean-forward="false" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acts/default.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding>
+            <element signature="e#6#95#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
