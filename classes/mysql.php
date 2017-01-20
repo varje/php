@@ -41,12 +41,14 @@ class mysql
 
     //query to database
     function query($sql) {
+        $begin = $this->getMicroTime();
         $res = mysqli_query($this->conn, $sql);
         if ($res === FALSE) {
             echo 'Viga päringuga <b>'.$sql.'</b><br />';
             echo mysqli_error($this->conn).'<br />';
             exit;
         }
+        $time = $this->getMicroTime() - $begin;
         return $res;
     }//query
 

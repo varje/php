@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="28047333-eed6-4b93-a951-c04df5932b60" name="Default" comment="getMicroTime">
+    <list default="true" id="28047333-eed6-4b93-a951-c04df5932b60" name="Default" comment="calculate time to execute query">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/mysql.php" afterPath="$PROJECT_DIR$/classes/mysql.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -99,8 +98,8 @@
       <file leaf-file-name="mysql.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/classes/mysql.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="38" column="44" lean-forward="false" selection-start-line="38" selection-start-column="44" selection-end-line="38" selection-end-column="44" />
+            <state relative-caret-position="207">
+              <caret line="50" column="47" lean-forward="false" selection-start-line="50" selection-start-column="47" selection-end-line="50" selection-end-column="47" />
               <folding />
             </state>
           </provider>
@@ -165,8 +164,8 @@
         <option value="$PROJECT_DIR$/classes/http.php" />
         <option value="$PROJECT_DIR$/db_conf.php" />
         <option value="$PROJECT_DIR$/conf.php" />
-        <option value="$PROJECT_DIR$/classes/mysql.php" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/classes/mysql.php" />
       </list>
     </option>
   </component>
@@ -369,7 +368,7 @@
       <workItem from="1484654492017" duration="8130000" />
       <workItem from="1484747049359" duration="3436000" />
       <workItem from="1484812996128" duration="4504000" />
-      <workItem from="1484896064181" duration="4762000" />
+      <workItem from="1484896064181" duration="5011000" />
     </task>
     <task id="LOCAL-00001" summary="new var $vars">
       <created>1484296435194</created>
@@ -623,11 +622,18 @@
       <option name="project" value="LOCAL" />
       <updated>1484902346790</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="getMicroTime">
+      <created>1484903019197</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1484903019197</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27259000" />
+    <option name="totallyTimeSpent" value="27508000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="737" y="29" width="1163" height="772" extended-state="0" />
@@ -661,7 +667,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="class linkobject" />
     <MESSAGE value="import linkobject" />
     <MESSAGE value="linkobject" />
     <MESSAGE value="linkobject variables" />
@@ -686,7 +691,8 @@
     <MESSAGE value="database query select now working" />
     <MESSAGE value="function getArray" />
     <MESSAGE value="getMicroTime" />
-    <option name="LAST_COMMIT_MESSAGE" value="getMicroTime" />
+    <MESSAGE value="calculate time to execute query" />
+    <option name="LAST_COMMIT_MESSAGE" value="calculate time to execute query" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1038,8 +1044,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/classes/mysql.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="38" column="44" lean-forward="false" selection-start-line="38" selection-start-column="44" selection-end-line="38" selection-end-column="44" />
+        <state relative-caret-position="207">
+          <caret line="50" column="47" lean-forward="false" selection-start-line="50" selection-start-column="47" selection-end-line="50" selection-end-column="47" />
           <folding />
         </state>
       </provider>
