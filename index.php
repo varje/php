@@ -30,7 +30,11 @@ echo $tmpl->parse();
 //database test
 $sql = 'SELECT NOW()';
 $res = $db->getArray($sql);
+$sql = 'SELECT NOW()';
+$res = $db->getArray($sql);
+$sql = 'SELECT NOW()';
+$res = $db->getArray($sql);
 echo '<pre>';
-print_r($res);
+print_r($db->history);
 echo '</pre>';
 ?>

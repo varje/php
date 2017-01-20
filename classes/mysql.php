@@ -53,7 +53,7 @@ class mysql
         $this->history[] = array(
             'sql' => $sql,
             'time' => $time
-        )
+        );
         return $res;
     }//query
 
