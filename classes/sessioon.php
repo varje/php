@@ -15,5 +15,15 @@ class sessioon
     var $db = false; //connect to database
     var $anonymous = true; //anonymous session
     var $timeout = 1800; //session length
+
+    //class methods
+    function setAnonymous() {
+        $this->anonymous = false;
+    }
+
+    function setTimeout() {
+        $this->timeout = 2000;
+    }
+
 }//class end
 ?>
