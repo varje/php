@@ -2,7 +2,7 @@
 // index.php
 /**
  * Created by PhpStorm.
- * User: anna.karutina
+ * User: Elitebook 1020
  * Date: 12.01.2017
  * Time: 12:58
  */
@@ -26,7 +26,8 @@ require_once 'menu.php';
 // end of menu
 $tmpl->set('nav_bar', 'minu navigatsioon');
 $tmpl->set('lang_bar', 'minu keeleriba');
-$tmpl->set('content', 'minu sisu');
+//allow to use default act
+$tmpl->set('content', $http->get('content'));
 // output template content set up with real values
 echo $tmpl->parse();
 //database test
