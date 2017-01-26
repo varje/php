@@ -20,6 +20,7 @@ require_once CLASSES_DIR.'template.php'; // import template class file
 require_once CLASSES_DIR.'http.php'; // import http class file
 require_once CLASSES_DIR.'linkobject.php'; // import linkobject file
 require_once CLASSES_DIR.'mysql.php';//import database class file
+require_once CLASSES_DIR.'sessioon.php';//import session class file
 //import database configuration
 require_once 'db_conf.php';
 // objects
@@ -27,4 +28,6 @@ require_once 'db_conf.php';
 $http = new linkobject();
 //create database class object
 $db = new mysql(DBHOST, DBUSER, DBPASS, DBNAME);
+//create session class object
+$sess = new sessioon($http, $db);
 ?>
