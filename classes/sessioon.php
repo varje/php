@@ -27,12 +27,12 @@ class sessioon
     //setAnonymous
     function setAnonymous($bool) {
         $this->anonymous = $bool;
-    }
+    }//setAnonymous
 
     //setTimeout
     function setTimeout($t) {
         $this->timeout = $t;
-    }
+    }//setTimeout
 
 }//class end
 ?>
