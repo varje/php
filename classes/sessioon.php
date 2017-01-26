@@ -34,5 +34,30 @@ class sessioon
         $this->timeout = $t;
     }//setTimeout
 
+    // delete sessions from database
+    function clearSession() {
+        $sql = 'DELETE FROM session '.'WHERE '.
+            time(). '- UNIX_TIMESTAMP(changed) > '.
+            $this->timeout;
+        $this->db->query($sql);
+    }//clearSession
+
+    //create session
+    function createSession($user = false) {
+        //anonymous user session
+        if($user == false) {
+            $user = array(
+                'user_id' => 0,
+                'role_id' => 0,
+                'username' => 'Anonymous'
+            );
+            //create session id number
+            $sid = md5(uniqid(time().mt_rand(1, 1000)), true);
+            //add session data to database
+            $sql = 'INSERT INTO session SET '.
+                'sid='
+        }
+    }//createSession
+
 }//class end
 ?>
