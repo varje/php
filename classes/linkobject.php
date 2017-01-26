@@ -19,6 +19,8 @@ class linkobject extends http
     var $protocol = 'http://';//protocol for url
     var $delim = '&amp;';// & html tag
     var $eq = '='; //equal sign
+    //add if exists
+    var $aie = array('sid'=>'sid');
 
     //class methods
     //construct
@@ -39,10 +41,22 @@ class linkobject extends http
         $link = $link.fixUrl($name).$this->eq.fixUrl($val);//name=value
     }//addToLink
     //create url -> baseUrl + data pairs
-    function getLink($add = array()) {
+    function getLink($add = array(), $aie = array(), $not = array()) {
         $link = '';
         foreach ($add as $name => $val) {
             $this->addToLink($link, $name, $val);
+        }
+        foreach ($aie as $name) {
+            $val = $this->get($name);
+            if($val !== false) {
+                $this->addToLink($link, $name, $val);
+            }
+        }
+        foreach ($this->aie as $name) {
+            $val = $this->get($name);
+            if($val !== false and !in_array($name, $not)) {
+                $this->addToLink($link, $name, $val);
+            }
         }
         if ($link != '') {
             $link = $this->baseUrl.'?'.$link;

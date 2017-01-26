@@ -38,4 +38,8 @@ $res = $db->getArray($sql);
 $sql = 'SELECT NOW()';
 $res = $db->getArray($sql);
 $db->showHistory();
+//control session output
+echo '<pre>';
+print_r($sess);
+echo '</pre>';
 ?>
