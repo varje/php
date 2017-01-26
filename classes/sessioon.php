@@ -17,12 +17,21 @@ class sessioon
     var $timeout = 1800; //session length
 
     //class methods
-    function setAnonymous() {
-        $this->anonymous = false;
+    //construct
+    function __construct(&$http, &$db) {
+        $this->http = &$http;
+        $this->db = &$db;
+        $this->sid = $http->get('sid');
+    }//construct
+
+    //setAnonymous
+    function setAnonymous($bool) {
+        $this->anonymous = $bool;
     }
 
-    function setTimeout() {
-        $this->timeout = 2000;
+    //setTimeout
+    function setTimeout($t) {
+        $this->timeout = $t;
     }
 
 }//class end
