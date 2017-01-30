@@ -10,7 +10,7 @@ define('CLASSES_DIR', 'classes/');
 define('TMPL_DIR', 'tmpl/');
 define('STYLE_DIR', 'css/');
 define('ACTS_DIR', 'acts/'); // define act directory
-define('LIB_DIR', 'lib/') //useful functions directory
+define('LIB_DIR', 'lib/'); //useful functions directory
 
 define('DEFAULT_ACT', 'default'); // define act file name
 define('ROLE_NONE', '0');

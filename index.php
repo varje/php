@@ -22,7 +22,7 @@ $tmpl->set('header', 'minu lehe pealkiri');
 // menu testing
 // import menu file
 require_once 'menu.php';
-//$tmpl->set('menu', $menu->parse());
+$tmpl->set('menu', $menu->parse());
 // end of menu
 $tmpl->set('nav_bar', 'minu navigatsioon');
 $tmpl->set('lang_bar', 'minu keeleriba');
@@ -39,6 +39,7 @@ $sql = 'SELECT NOW()';
 $res = $db->getArray($sql);
 $db->showHistory();
 //control session output
+$sess->flush();
 echo '<pre>';
 print_r($sess);
 echo '</pre>';
