@@ -22,7 +22,8 @@ class sessioon
         $this->http = &$http;
         $this->db = &$db;
         $this->sid = $http->get('sid');
-        $this->createSession();
+        //$this->createSession();
+	$this->checkSession();
     }//construct
 
     //setAnonymous
@@ -73,7 +74,7 @@ class sessioon
 
     // controll session
     function checkSession(){
-        $this->clearSessions();
+        $this->clearSession();
         if($this->sid === false and $this->anonymous){
             $this->createSession();
         }
