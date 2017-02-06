@@ -16,7 +16,9 @@ require_once 'act.php';
 // set up the file name for template
 // load template file content
 $tmpl = new template('main');
-// add pairs of temlate element names and real values
+//require language control
+require_once(BASE_DIR.'lang.php');
+// add pairs of template element names and real values
 $tmpl->set('style', STYLE_DIR.'main'.'.css');
 $tmpl->set('header', 'minu lehe pealkiri');
 // menu testing
@@ -24,11 +26,13 @@ $tmpl->set('header', 'minu lehe pealkiri');
 require_once 'menu.php';
 $tmpl->set('menu', $menu->parse());
 // end of menu
+//import act file
+require_once 'act.php';
 //$tmpl->set('nav_bar', 'minu navigatsioon');
 $tmpl->set('nav_bar', $sess->user_data['username']);
-$tmpl->set('lang_bar', LANG_ID);
+//$tmpl->set('lang_bar', LANG_ID);
 //allow to use default act
-$tmpl->set('content', $http->get('content'));
+//$tmpl->set('content', $http->get('content'));
 // output template content set up with real values
 echo $tmpl->parse();
 //database test
