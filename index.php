@@ -26,7 +26,7 @@ $tmpl->set('menu', $menu->parse());
 // end of menu
 //$tmpl->set('nav_bar', 'minu navigatsioon');
 $tmpl->set('nav_bar', $sess->user_data['username']);
-$tmpl->set('lang_bar', 'minu keeleriba');
+$tmpl->set('lang_bar', LANG_ID);
 //allow to use default act
 $tmpl->set('content', $http->get('content'));
 // output template content set up with real values
