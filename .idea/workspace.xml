@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="28047333-eed6-4b93-a951-c04df5932b60" name="Default" comment="login_do.php">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/acts/logout.php" />
+    <list default="true" id="28047333-eed6-4b93-a951-c04df5932b60" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/menu.php" afterPath="$PROJECT_DIR$/menu.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/linkobject.php" afterPath="$PROJECT_DIR$/classes/linkobject.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/conf.php" afterPath="$PROJECT_DIR$/conf.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -32,7 +32,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="logout.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="logout.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/acts/logout.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="198">
@@ -47,6 +47,16 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="198">
               <caret line="9" column="2" lean-forward="true" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="linkobject.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/classes/linkobject.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="371">
+              <caret line="22" column="32" lean-forward="false" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -94,28 +104,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sessioon.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/classes/sessioon.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1628">
-              <caret line="74" column="11" lean-forward="true" selection-start-line="74" selection-start-column="11" selection-end-line="74" selection-end-column="11" />
-              <folding>
-                <marker date="1486296781524" expanded="true" signature="924:1005" ph="DELETE FROM " />
-                <marker date="1486296781524" expanded="true" signature="1523:1770" ph="INSERT INTO session... " />
-                <marker date="1486296781524" expanded="true" signature="2244:2296" ph="SELECT * FRO... session" />
-                <marker date="1486296781524" expanded="true" signature="3371:3421" ph="DELETE FROM " />
-                <marker date="1486296781524" expanded="true" signature="4288:4409" ph="UPDATE sessi... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="conf.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="conf.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/conf.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" column="19" lean-forward="true" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-              <folding />
+            <state relative-caret-position="392">
+              <caret line="53" column="90" lean-forward="false" selection-start-line="53" selection-start-column="90" selection-end-line="53" selection-end-column="90" />
+              <folding>
+                <element signature="e#6#95#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -160,7 +156,6 @@
         <option value="$PROJECT_DIR$/CSS/kujundus.css" />
         <option value="$PROJECT_DIR$/CSS/main.css" />
         <option value="$USER_HOME$/PhpstormProjects/veebidisain/index.html" />
-        <option value="$PROJECT_DIR$/classes/linkobject.php" />
         <option value="$PROJECT_DIR$/tmpl/item.html" />
         <option value="$PROJECT_DIR$/tmpl/menu.html" />
         <option value="$PROJECT_DIR$/tmpl/menu/menu.html" />
@@ -170,7 +165,6 @@
         <option value="$PROJECT_DIR$/db_conf.php" />
         <option value="$PROJECT_DIR$/classes/mysql.php" />
         <option value="$PROJECT_DIR$/act.php" />
-        <option value="$PROJECT_DIR$/conf.php" />
         <option value="$PROJECT_DIR$/acts/default.php" />
         <option value="$PROJECT_DIR$/demo_session.html" />
         <option value="$PROJECT_DIR$/sessionstest.php" />
@@ -183,6 +177,8 @@
         <option value="$PROJECT_DIR$/acts/login_do.php" />
         <option value="$PROJECT_DIR$/menu.php" />
         <option value="$PROJECT_DIR$/acts/logout.php" />
+        <option value="$PROJECT_DIR$/classes/linkobject.php" />
+        <option value="$PROJECT_DIR$/conf.php" />
       </list>
     </option>
   </component>
@@ -420,14 +416,7 @@
       <workItem from="1485279448074" duration="12000" />
       <workItem from="1485803020305" duration="1267000" />
       <workItem from="1486296403455" duration="1119000" />
-      <workItem from="1486381835243" duration="4599000" />
-    </task>
-    <task id="LOCAL-00008" summary="http constants renewed">
-      <created>1484659244283</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1484659244283</updated>
+      <workItem from="1486381835243" duration="5329000" />
     </task>
     <task id="LOCAL-00009" summary="function set">
       <created>1484659645988</created>
@@ -765,11 +754,18 @@
       <option name="project" value="LOCAL" />
       <updated>1486392784557</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="logout">
+      <created>1486393556768</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1486393556768</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42895000" />
+    <option name="totallyTimeSpent" value="43625000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -803,7 +799,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="mysql class, database test" />
     <MESSAGE value="database with real values (db_conf file not commited, private)" />
     <MESSAGE value="database query" />
     <MESSAGE value="database query select now with error" />
@@ -828,7 +823,8 @@
     <MESSAGE value="login.html" />
     <MESSAGE value="login.php" />
     <MESSAGE value="login_do.php" />
-    <option name="LAST_COMMIT_MESSAGE" value="login_do.php" />
+    <MESSAGE value="logout" />
+    <option name="LAST_COMMIT_MESSAGE" value="logout" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1140,14 +1136,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/classes/linkobject.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1012">
-          <caret line="51" column="14" lean-forward="false" selection-start-line="51" selection-start-column="14" selection-end-line="51" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/utils.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1212,14 +1200,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/conf.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="19" lean-forward="true" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/menu.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="518">
@@ -1244,6 +1224,24 @@
         <state relative-caret-position="198">
           <caret line="9" column="2" lean-forward="false" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/linkobject.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="22" column="32" lean-forward="false" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="53" column="90" lean-forward="false" selection-start-line="53" selection-start-column="90" selection-end-line="53" selection-end-column="90" />
+          <folding>
+            <element signature="e#6#95#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

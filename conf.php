@@ -17,6 +17,8 @@ define('ROLE_NONE', '0');
 define('ROLE_ADMIN', '1');
 define('ROLE_USER', '2');
 
+define('DEFAULT_LANG', 'et'); //default language
+
 //import useful files
 require_once LIB_DIR.'utils.php';
 // import classes
@@ -34,4 +36,22 @@ $http = new linkobject();
 $db = new mysql(DBHOST, DBUSER, DBPASS, DBNAME);
 //create session class object
 $sess = new sessioon($http, $db);
+
+//language support
+//sites used langs
+$siteLangs = array(
+    'et' => 'estonian',
+    'en' => 'english',
+    'ru' => 'russian'
+);
+//get lang_id from url
+$lang_id = $http->get('lang_id');
+if (!isset($siteLangs[$lang_id])) {
+    //if such lang_id is not supported
+    $lang_id = DEFAULT_LANG; //use default lang - et
+    $http->set('lang_id', $lang_id); // fix used lang_id
+}
+define('LANG_ID', $lang_id); //define useful constant which describe right now active lang
+
+
 ?>

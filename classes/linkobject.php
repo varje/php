@@ -20,7 +20,7 @@ class linkobject extends http
     var $delim = '&amp;';// & html tag
     var $eq = '='; //equal sign
     //add if exists
-    var $aie = array('sid'=>'sid');
+    var $aie = array('lang_id', 'sid'=>'sid');
 
     //class methods
     //construct
