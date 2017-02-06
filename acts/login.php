@@ -10,9 +10,9 @@ $form = new Template('login');
 $form->set('error', $sess->get('login_error'));
 $sess->del('login_error');
 
-$form->set('submit', tr('Logi sisse'));
-$form->set('username_str', tr('Kasutajanimi'));
-$form->set('password_str', tr('Parool'));
+$form->set('submit', 'Logi sisse');
+$form->set('username_str', 'Kasutajanimi');
+$form->set('password_str', 'Parool');
 
 $form->set('username', $http->get('username', true));
 
