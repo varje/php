@@ -9,7 +9,7 @@
 // import configuration
 require_once 'conf.php';
 //import act
-require_once 'act.php';
+// require_once 'act.php';
 // create and template object
 // and use it
 // create an template object,
@@ -17,7 +17,7 @@ require_once 'act.php';
 // load template file content
 $tmpl = new template('main');
 //require language control//
-//require_once('BASE_DIR'.'lang.php');
+require_once(BASE_DIR.'lang.php');
 // add pairs of template element names and real values
 $tmpl->set('style', STYLE_DIR.'main'.'.css');
 $tmpl->set('header', 'minu lehe pealkiri');
@@ -30,7 +30,7 @@ $tmpl->set('menu', $menu->parse());
 require_once 'act.php';
 //$tmpl->set('nav_bar', 'minu navigatsioon');
 $tmpl->set('nav_bar', $sess->user_data['username']);
-//$tmpl->set('lang_bar', LANG_ID);
+$tmpl->set('lang_bar', LANG_ID);
 //allow to use default act
 //$tmpl->set('content', $http->get('content'));
 // output template content set up with real values
