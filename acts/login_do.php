@@ -7,7 +7,7 @@
  */
 $username = $http->get('username');
 $password = $http->get('password');
-$sql = 'SELCT * FROM user WHERE '.'username='.fixDb($username).' AND '.'password='.fixDb(md5($password)).' AND '.'is_active=1';
+$sql = 'SELECT * FROM user WHERE '.'username='.fixDb($username).' AND '.'password='.fixDb(md5($password)).' AND '.'is_active=1';
 $res = $db->getArray($sql);
 
 if($res === false)
