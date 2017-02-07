@@ -16,8 +16,8 @@ require_once 'conf.php';
 // set up the file name for template
 // load template file content
 $tmpl = new template('main');
-//require language control//
-require_once(BASE_DIR.'lang.php');
+//require language control
+require_once 'lang.php';
 // add pairs of template element names and real values
 $tmpl->set('style', STYLE_DIR.'main'.'.css');
 $tmpl->set('header', 'minu lehe pealkiri');
