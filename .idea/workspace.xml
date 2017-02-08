@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28047333-eed6-4b93-a951-c04df5932b60" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lang/lang_en.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/trans.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/conf.php" afterPath="$PROJECT_DIR$/conf.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -444,14 +441,7 @@
       <workItem from="1486451441032" duration="1282000" />
       <workItem from="1486455414410" duration="740000" />
       <workItem from="1486492437177" duration="828000" />
-      <workItem from="1486542148853" duration="1063000" />
-    </task>
-    <task id="LOCAL-00017" summary="call addtolink">
-      <created>1484749923667</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1484749923667</updated>
+      <workItem from="1486542148853" duration="1093000" />
     </task>
     <task id="LOCAL-00018" summary="making  full link">
       <created>1484750338476</created>
@@ -789,11 +779,18 @@
       <option name="project" value="LOCAL" />
       <updated>1486455469610</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="setting english language and trans.php">
+      <created>1486543237686</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1486543237687</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50901000" />
+    <option name="totallyTimeSpent" value="50931000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="482" width="1932" height="537" extended-state="0" />
@@ -848,7 +845,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="if callout several times, the query execute time gets smaller" />
     <MESSAGE value="round time and output in list" />
     <MESSAGE value="takes menu elements from database" />
     <MESSAGE value="functin get changes" />
@@ -873,7 +869,8 @@
     <MESSAGE value="fixed version" />
     <MESSAGE value="select fixed" />
     <MESSAGE value="passsword in database change to password; remove tr" />
-    <option name="LAST_COMMIT_MESSAGE" value="passsword in database change to password; remove tr" />
+    <MESSAGE value="setting english language and trans.php" />
+    <option name="LAST_COMMIT_MESSAGE" value="setting english language and trans.php" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
