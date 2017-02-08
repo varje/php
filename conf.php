@@ -54,5 +54,6 @@ if (!isset($siteLangs[$lang_id])) {
 }
 define('LANG_ID', $lang_id); //define useful constant which describe right now active lang
 
+require_once LIB_DIR.'trans.php';
 
 ?>
