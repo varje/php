@@ -13,6 +13,7 @@ $sql = 'SELECT * FROM content WHERE '.
 $res = $db->getArray($sql);
 if($res !== FALSE) {
     $page = $res[0];
-    $http->set('content', $page['content']);
+    //$http->set('content', $page['content']);
+    $tmpl->set('content', $page['content'])
 }
 ?>
