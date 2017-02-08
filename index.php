@@ -30,7 +30,7 @@ $tmpl->set('menu', $menu->parse());
 require_once 'act.php';
 //$tmpl->set('nav_bar', 'minu navigatsioon');
 $tmpl->set('nav_bar', $sess->user_data['username']);
-$tmpl->set('lang_bar', LANG_ID);
+//$tmpl->set('lang_bar', LANG_ID);
 //allow to use default act
 //$tmpl->set('content', $http->get('content'));
 // output template content set up with real values
