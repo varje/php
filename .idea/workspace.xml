@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="28047333-eed6-4b93-a951-c04df5932b60" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/acts/default.php" afterPath="$PROJECT_DIR$/acts/default.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -444,14 +443,7 @@
       <workItem from="1486451441032" duration="1282000" />
       <workItem from="1486455414410" duration="740000" />
       <workItem from="1486492437177" duration="828000" />
-      <workItem from="1486542148853" duration="2406000" />
-    </task>
-    <task id="LOCAL-00022" summary="create menu and item objects">
-      <created>1484815551470</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1484815551470</updated>
+      <workItem from="1486542148853" duration="2419000" />
     </task>
     <task id="LOCAL-00023" summary="import menu">
       <created>1484815767699</created>
@@ -789,11 +781,18 @@
       <option name="project" value="LOCAL" />
       <updated>1486545281212</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="set content">
+      <created>1486545561423</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1486545561423</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52244000" />
+    <option name="totallyTimeSpent" value="52257000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="11" y="93" width="1932" height="537" extended-state="0" />
@@ -848,7 +847,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="act.php" />
     <MESSAGE value="act.php default act" />
     <MESSAGE value="Session w3schools examples" />
     <MESSAGE value="Session tutorialrepublic examples" />
@@ -873,7 +871,8 @@
     <MESSAGE value="requiring lang.php" />
     <MESSAGE value="fixing typos" />
     <MESSAGE value="comment lang_bar" />
-    <option name="LAST_COMMIT_MESSAGE" value="comment lang_bar" />
+    <MESSAGE value="set content" />
+    <option name="LAST_COMMIT_MESSAGE" value="set content" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
