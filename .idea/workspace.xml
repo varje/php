@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="28047333-eed6-4b93-a951-c04df5932b60" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/acts/default.php" afterPath="$PROJECT_DIR$/acts/default.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -43,8 +44,8 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="32" column="2" lean-forward="false" selection-start-line="32" selection-start-column="2" selection-end-line="32" selection-end-column="2" />
+            <state relative-caret-position="22">
+              <caret line="20" column="20" lean-forward="true" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -53,10 +54,10 @@
       <file leaf-file-name="default.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/acts/default.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="15" column="6" lean-forward="false" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+            <state relative-caret-position="79">
+              <caret line="16" column="44" lean-forward="false" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
               <folding>
-                <marker date="1486545551072" expanded="true" signature="216:277" ph="SELECT * FRO... content" />
+                <marker date="1486545608383" expanded="true" signature="216:277" ph="SELECT * FRO... content" />
               </folding>
             </state>
           </provider>
@@ -443,14 +444,7 @@
       <workItem from="1486451441032" duration="1282000" />
       <workItem from="1486455414410" duration="740000" />
       <workItem from="1486492437177" duration="828000" />
-      <workItem from="1486542148853" duration="2419000" />
-    </task>
-    <task id="LOCAL-00023" summary="import menu">
-      <created>1484815767699</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1484815767699</updated>
+      <workItem from="1486542148853" duration="2463000" />
     </task>
     <task id="LOCAL-00024" summary="set link">
       <created>1484816000596</created>
@@ -788,11 +782,18 @@
       <option name="project" value="LOCAL" />
       <updated>1486545561423</updated>
     </task>
-    <option name="localTasksCounter" value="72" />
+    <task id="LOCAL-00072" summary="set content">
+      <created>1486545568378</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1486545568378</updated>
+    </task>
+    <option name="localTasksCounter" value="73" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52257000" />
+    <option name="totallyTimeSpent" value="52301000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="11" y="93" width="1932" height="537" extended-state="0" />
@@ -1267,18 +1268,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="32" column="2" lean-forward="false" selection-start-line="32" selection-start-column="2" selection-end-line="32" selection-end-column="2" />
+        <state relative-caret-position="22">
+          <caret line="20" column="20" lean-forward="true" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/acts/default.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="15" column="6" lean-forward="false" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+        <state relative-caret-position="79">
+          <caret line="16" column="44" lean-forward="false" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
           <folding>
-            <marker date="1486545551072" expanded="true" signature="216:277" ph="SELECT * FRO... content" />
+            <marker date="1486545608383" expanded="true" signature="216:277" ph="SELECT * FRO... content" />
           </folding>
         </state>
       </provider>
