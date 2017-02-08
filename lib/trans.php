@@ -28,9 +28,9 @@ function tr($txt)
             $trans = array();
         }
     }
-    if(isset($trans($txt)))
+    if(isset($trans[$txt]))
     {
-        return $trans($txt);
+        return $trans[$txt];
     }
     //if answer not found, return default text
     return $txt;
