@@ -17,6 +17,8 @@ foreach ($res as $key=>$user){
     $user_data->set('created', $user['created']);
     $user_data->set('changed', $user['changed']);
 }
+$link = $http->getLink(array("act"=>"add"));
+$user_data->set("link", $link);
 $tmpl->set('content', $user_data->parse());
 
 ?>

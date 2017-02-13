@@ -6,6 +6,7 @@
  * Date: 13-Feb-17
  * Time: 15:06
  */
+$link = $db;
 $user_id = mysqli_real_escape_string($link, $_POST['userid']);
 $username = mysqli_real_escape_string($link, $_POST['username']);
 $password = mysqli_real_escape_string($link, $_POST['password']);
