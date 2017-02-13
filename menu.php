@@ -17,6 +17,13 @@ if(ROLE_ID != ROLE_ADMIN)
     $sql .= ' AND is_hidden=0';
 }
 $sql .= ' ORDER BY sort ASC';
+if(ROLE_ID == ROLE_ADMIN)
+{
+    $link = $http->getLink(array('act' => 'logout'));
+    $item->set('link', $link);
+    $item->set('name', tr('Administreeri'));
+    $menu->add('items', $item->parse());
+}
 // get menu data from database
 $res = $db->getArray($sql);
 //create menu items from query result
