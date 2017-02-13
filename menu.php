@@ -19,7 +19,7 @@ if(ROLE_ID != ROLE_ADMIN)
 $sql .= ' ORDER BY sort ASC';
 if(ROLE_ID == ROLE_ADMIN)
 {
-    $link = $http->getLink(array('act' => 'logout'));
+    $link = $http->getLink(array('act' => 'list'));
     $item->set('link', $link);
     $item->set('name', tr('Administreeri'));
     $menu->add('items', $item->parse());
