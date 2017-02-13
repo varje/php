@@ -6,6 +6,6 @@
  * Time: 10:02
  */
 $sql = 'SELECT * FROM user';
-$tmpl->set('content', getArray($sql));
+$tmpl->set('content', $sql->parse());
 $http->redirect();
 ?>
