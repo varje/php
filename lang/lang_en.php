@@ -9,7 +9,7 @@
 $_trans = array(
     'Esimene' => 'First',
     'Teine' => 'Second',
-    'Minu lehe pealkiri' => 'My oage heading',
+    'Minu lehe pealkiri' => 'My page heading',
     'Logi v&auml;lja' => 'Logout',
     'Kasutajanimi' => 'Username',
     'Parool' => 'Password',

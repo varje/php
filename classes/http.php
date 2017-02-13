@@ -73,10 +73,11 @@ class http
 
         if($url == false)
         {
-            $url = str_replace('&amp;', '&', $url);
-            header('Location: '.$url);
-            exit;
+            $url=$this->getLink();
         }
+        $url = str_replace('&amp;', '&', $url);
+        header('Location: '.$url);
+        exit;
     }
 }// http class end
 ?>
