@@ -20,7 +20,7 @@ $tmpl = new template('main');
 require_once 'lang.php';
 // add pairs of template element names and real values
 $tmpl->set('style', STYLE_DIR.'main'.'.css');
-$tmpl->set('header', 'minu lehe pealkiri');
+$tmpl->set('header', 'Minu lehe pealkiri');
 // menu testing
 // import menu file
 require_once 'menu.php';
