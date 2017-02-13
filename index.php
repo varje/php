@@ -18,6 +18,7 @@ require_once 'conf.php';
 $tmpl = new template('main');
 //require language control
 require_once 'lang.php';
+require_once 'act.php';
 // add pairs of template element names and real values
 $tmpl->set('style', STYLE_DIR.'main'.'.css');
 $tmpl->set('header', tr('Minu lehe pealkiri'));
@@ -27,7 +28,7 @@ require_once 'menu.php';
 $tmpl->set('menu', $menu->parse());
 // end of menu
 //import act file
-require_once 'act.php';
+
 //$tmpl->set('nav_bar', 'minu navigatsioon');
 $tmpl->set('nav_bar', $sess->user_data['username']);
 //$tmpl->set('lang_bar', LANG_ID);
