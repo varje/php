@@ -5,7 +5,12 @@
  * Date: 13-Feb-17
  * Time: 10:02
  */
+echo 'aaaaaaaaaaaaa';
 $sql = 'SELECT * FROM user';
-$tmpl->set('content', $sql->parse());
-$http->redirect();
+$res = $db->getArray($sql);
+echo '<pre>';
+print_r($res);
+echo '</pre>';
+//$tmpl->set('content', $res->parse());
+
 ?>

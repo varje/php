@@ -8,6 +8,7 @@
 $act = $http->get('act'); //act value from url
 //create act file path according to act value
 $fn = ACTS_DIR.str_replace('.', '/', $act).'.php';
+echo $fn;
 if(file_exists($fn) and is_file($fn) and is_readable($fn)) {
     require_once $fn;
 } else {
