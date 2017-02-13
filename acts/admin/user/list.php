@@ -5,12 +5,12 @@
  * Date: 13-Feb-17
  * Time: 10:02
  */
-echo 'aaaaaaaaaaaaa';
+$user_data = new template('admin.user.user');
 $sql = 'SELECT * FROM user';
 $res = $db->getArray($sql);
-echo '<pre>';
-print_r($res);
-echo '</pre>';
-//$tmpl->set('content', $res->parse());
+foreach ($res as $key=>$user){
+    $user_data->set('username', $user['username']);
+}
+$tmpl->set('content', $user_data->parse());
 
 ?>

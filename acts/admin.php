@@ -14,10 +14,10 @@ if(ROLE_ID != ROLE_ADMIN){
     $admin_menu = array(
         array(
             'name'=>'Kasutajad',
-            'link' => 'user.list'),
+            'link' => 'admin.user.list'),
         array(
             'name' => 'Menüü',
-            'link' => 'page.add')
+            'link' => 'admin.page.add')
     );
 
     foreach ($admin_menu as $link_data){
